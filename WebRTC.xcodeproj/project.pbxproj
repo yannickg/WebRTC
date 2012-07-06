@@ -37,6 +37,10 @@
 		09471F2F15A476E700E64D97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09471F2E15A476E700E64D97 /* AppDelegate.m */; };
 		09471F3215A476E700E64D97 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09471F3115A476E700E64D97 /* MainViewController.m */; };
 		09471F3415A476E700E64D97 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09471F3315A476E700E64D97 /* MainViewController.xib */; };
+		09471F3E15A4775200E64D97 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 09471F3D15A4775200E64D97 /* www */; };
+		095A4BAC15A490590015CB2A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095A4BAB15A490590015CB2A /* CoreVideo.framework */; };
+		095A4BB715A4AE100015CB2A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095A4BB615A4AE100015CB2A /* MapKit.framework */; };
+		095A4BBA15A4B2400015CB2A /* WebRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 095A4BB915A4B2400015CB2A /* WebRTC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,10 +58,10 @@
 		09471EFA15A476E600E64D97 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		09471EFC15A476E600E64D97 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		09471EFE15A476E600E64D97 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
-		09471F0215A476E600E64D97 /* WebRTC-Info.plist */ = {isa = PBXFileReference; path = "WebRTC-Info.plist"; sourceTree = "<group>"; };
+		09471F0215A476E600E64D97 /* WebRTC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebRTC-Info.plist"; sourceTree = "<group>"; };
 		09471F0415A476E600E64D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09471F0615A476E600E64D97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		09471F0815A476E600E64D97 /* WebRTC-Prefix.pch */ = {isa = PBXFileReference; path = "WebRTC-Prefix.pch"; sourceTree = "<group>"; };
+		09471F0815A476E600E64D97 /* WebRTC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebRTC-Prefix.pch"; sourceTree = "<group>"; };
 		09471F0915A476E600E64D97 /* Cordova.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cordova.framework; path = /Users/Shared/Cordova/Frameworks/Cordova.framework; sourceTree = "<absolute>"; };
 		09471F0E15A476E600E64D97 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		09471F1215A476E600E64D97 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -70,13 +74,17 @@
 		09471F2615A476E600E64D97 /* Default@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x~iphone.png"; path = "Resources/splash/Default@2x~iphone.png"; sourceTree = "<group>"; };
 		09471F2815A476E700E64D97 /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
 		09471F2A15A476E700E64D97 /* Cordova.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Cordova.plist; sourceTree = "<group>"; };
-		09471F2D15A476E700E64D97 /* AppDelegate.h */ = {isa = PBXFileReference; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		09471F2D15A476E700E64D97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		09471F2E15A476E700E64D97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		09471F3015A476E700E64D97 /* MainViewController.h */ = {isa = PBXFileReference; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		09471F3015A476E700E64D97 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
 		09471F3115A476E700E64D97 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
 		09471F3315A476E700E64D97 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainViewController.xib; path = Classes/MainViewController.xib; sourceTree = "<group>"; };
-		09471F3615A476E700E64D97 /* README */ = {isa = PBXFileReference; name = README; path = Plugins/README; sourceTree = "<group>"; };
-		09471F3715A476E700E64D97 /* verify.sh */ = {isa = PBXFileReference; path = verify.sh; sourceTree = "<group>"; };
+		09471F3715A476E700E64D97 /* verify.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = verify.sh; sourceTree = "<group>"; };
+		09471F3D15A4775200E64D97 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
+		095A4BAB15A490590015CB2A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		095A4BB615A4AE100015CB2A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		095A4BB815A4B2400015CB2A /* WebRTC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebRTC.h; path = Plugins/WebRTC.h; sourceTree = "<group>"; };
+		095A4BB915A4B2400015CB2A /* WebRTC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebRTC.m; path = Plugins/WebRTC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,9 +92,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095A4BB715A4AE100015CB2A /* MapKit.framework in Frameworks */,
+				09471EEB15A476E600E64D97 /* CoreGraphics.framework in Frameworks */,
 				09471EE715A476E600E64D97 /* Foundation.framework in Frameworks */,
 				09471EE915A476E600E64D97 /* UIKit.framework in Frameworks */,
-				09471EEB15A476E600E64D97 /* CoreGraphics.framework in Frameworks */,
 				09471EED15A476E600E64D97 /* AddressBook.framework in Frameworks */,
 				09471EEF15A476E600E64D97 /* AddressBookUI.framework in Frameworks */,
 				09471EF115A476E600E64D97 /* AudioToolbox.framework in Frameworks */,
@@ -98,6 +107,7 @@
 				09471EFD15A476E600E64D97 /* MobileCoreServices.framework in Frameworks */,
 				09471EFF15A476E600E64D97 /* CoreMedia.framework in Frameworks */,
 				09471F0A15A476E600E64D97 /* Cordova.framework in Frameworks */,
+				095A4BAC15A490590015CB2A /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +124,7 @@
 		09471ED415A476E600E64D97 = {
 			isa = PBXGroup;
 			children = (
+				095A4BB615A4AE100015CB2A /* MapKit.framework */,
 				09471F0015A476E600E64D97 /* WebRTC */,
 				09471EE515A476E600E64D97 /* Frameworks */,
 				09471EE315A476E600E64D97 /* Products */,
@@ -131,6 +142,7 @@
 		09471EE515A476E600E64D97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				095A4BAB15A490590015CB2A /* CoreVideo.framework */,
 				09471EE615A476E600E64D97 /* Foundation.framework */,
 				09471EE815A476E600E64D97 /* UIKit.framework */,
 				09471EEA15A476E600E64D97 /* CoreGraphics.framework */,
@@ -151,6 +163,7 @@
 		09471F0015A476E600E64D97 /* WebRTC */ = {
 			isa = PBXGroup;
 			children = (
+				09471F3D15A4775200E64D97 /* www */,
 				09471F0915A476E600E64D97 /* Cordova.framework */,
 				09471F0B15A476E600E64D97 /* Resources */,
 				09471F2C15A476E700E64D97 /* Classes */,
@@ -253,7 +266,8 @@
 		09471F3515A476E700E64D97 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				09471F3615A476E700E64D97 /* README */,
+				095A4BB815A4B2400015CB2A /* WebRTC.h */,
+				095A4BB915A4B2400015CB2A /* WebRTC.m */,
 			);
 			name = Plugins;
 			sourceTree = "<group>";
@@ -327,6 +341,7 @@
 				09471F2915A476E700E64D97 /* Capture.bundle in Resources */,
 				09471F2B15A476E700E64D97 /* Cordova.plist in Resources */,
 				09471F3415A476E700E64D97 /* MainViewController.xib in Resources */,
+				09471F3E15A4775200E64D97 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +371,7 @@
 				09471F0715A476E600E64D97 /* main.m in Sources */,
 				09471F2F15A476E700E64D97 /* AppDelegate.m in Sources */,
 				09471F3215A476E700E64D97 /* MainViewController.m in Sources */,
+				095A4BBA15A4B2400015CB2A /* WebRTC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,6 +554,7 @@
 				09471F3C15A476E700E64D97 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

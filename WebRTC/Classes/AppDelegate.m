@@ -36,6 +36,8 @@
     #import "CDVURLProtocol.h"
 #endif
 
+NSString * const NSURLIsExcludedFromBackupKey = 
+@"NSURLIsExcludedFromBackupKey"; 
 
 @implementation AppDelegate
 
