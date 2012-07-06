@@ -71,7 +71,8 @@
     
 	/*We add the preview layer*/
 	self.prevLayer = [AVCaptureVideoPreviewLayer layerWithSession: self.captureSession];
-	self.prevLayer.frame = CGRectMake(8, 252, 200, 200);
+    // TODO: make position dynamic, not hard coded.
+	self.prevLayer.frame = CGRectMake(8, 8, 200, 200);
 	self.prevLayer.videoGravity = AVLayerVideoGravityResizeAspectFill;
 
 	self.childView = [[UIView alloc] init];
