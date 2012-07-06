@@ -4,8 +4,6 @@
 //
 
 #import "WebRTC.h"
-#import "CDVAnnotation.h"
-#import "AsyncImageView.h"
 
 #ifdef CORDOVA_FRAMEWORK
     // PhoneGap >= 1.2.0
